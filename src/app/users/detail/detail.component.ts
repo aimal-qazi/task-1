@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailComponent implements OnInit {
   title = 'Users Detail';
-  height: any;
+  height: any = 100;
   font: any;
 
   constructor() {}
