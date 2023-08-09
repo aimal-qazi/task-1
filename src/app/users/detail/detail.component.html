@@ -1,0 +1,22 @@
+<button routerLink="" class="btn">Back To List</button>
+<div class="container">
+  <h1>{{ title }}</h1>
+  <div class="box" [style.height.px]="height">
+    <div class="inp">
+      <input
+        type="number"
+        [(ngModel)]="height"
+        placeholder="Enter the height of box"
+      />
+      <input
+        type="number"
+        [(ngModel)]="font"
+        placeholder="Enter the size of font"
+      />
+    </div>
+    <p [style.font-size.px]="font">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus
+      quo temporibus atque minima officiis ex!
+    </p>
+  </div>
+</div>

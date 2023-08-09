@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 80px;
+  background: lightcyan;
+}
+.btn {
+  position: absolute;
+  padding: 10px 30px;
+  background: #333;
+  color: white;
+  font-weight: 600;
+  border: 0;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+.box {
+  max-width: 800px;
+  border: 1px solid #333;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.box .inp {
+  display: flex;
+  gap: 2rem;
+}
+.box .inp input {
+  padding: 5px;
+  outline: 0;
+  border: 1px solid #333;
+}
